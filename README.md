@@ -10,6 +10,8 @@ YukkuriMovieMaker4（YMM4）上で動作する、**点光源からの透視投�
 HLSL ピクセルシェーダーを Direct2D カスタムエフェクトとして実装しており、GPU 上でのリアルタイムレンダリングが可能です。
 光源位置・高さ・接地線を基にした透視変換と、距離に応じた動的ブラーにより、奥行きのある自然な落ち影を実現します。
 光源座標はキーフレームアニメーションに対応しており、光が動くような演出も可能です。
+
+![Image](https://github.com/routersys/YMM4-PerspectiveShadow/blob/main/docs/PerspectiveShadow.png)
  
 ---
  
