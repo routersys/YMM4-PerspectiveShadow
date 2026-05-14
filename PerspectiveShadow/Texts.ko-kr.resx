@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="CurrentCulture" xml:space="preserve"><value>ko-kr</value></data>
+<data name="PerspectiveShadowEffectName" xml:space="preserve"><value>그림자 (입체 투영)</value></data>
+<data name="TagPerspectiveShadow" xml:space="preserve"><value>그림자 (입체 투영)</value></data>
+<data name="TagPerspective" xml:space="preserve"><value>투시</value></data>
+<data name="TagShadow3D" xml:space="preserve"><value>3D 그림자</value></data>
+<data name="TagCastShadow" xml:space="preserve"><value>투영 그림자</value></data>
+<data name="TagShadow" xml:space="preserve"><value>그림자</value></data>
+<data name="PerspectiveShadowGroupLight" xml:space="preserve"><value>광원</value></data>
+<data name="PerspectiveShadowGroupAppearance" xml:space="preserve"><value>그림자 외관</value></data>
+<data name="PerspectiveShadowLightXName" xml:space="preserve"><value>광원 X</value></data>
+<data name="PerspectiveShadowLightXDesc" xml:space="preserve"><value>광원의 수평 위치 (px)</value></data>
+<data name="PerspectiveShadowLightYName" xml:space="preserve"><value>광원 Y</value></data>
+<data name="PerspectiveShadowLightYDesc" xml:space="preserve"><value>광원의 수직 위치 (px)</value></data>
+<data name="PerspectiveShadowLightHeightName" xml:space="preserve"><value>광원 높이</value></data>
+<data name="PerspectiveShadowLightHeightDesc" xml:space="preserve"><value>광원의 가상 높이. 값이 작을수록 그림자가 길어집니다.</value></data>
+<data name="PerspectiveShadowGroundYName" xml:space="preserve"><value>접지선 Y</value></data>
+<data name="PerspectiveShadowGroundYDesc" xml:space="preserve"><value>소재 하단을 기준으로 한 지면 위치 오프셋 (px).</value></data>
+<data name="PerspectiveShadowOpacityName" xml:space="preserve"><value>불투명도</value></data>
+<data name="PerspectiveShadowOpacityDesc" xml:space="preserve"><value>그림자 전체의 불투명도.</value></data>
+<data name="PerspectiveShadowFalloffName" xml:space="preserve"><value>거리 감쇠</value></data>
+<data name="PerspectiveShadowFalloffDesc" xml:space="preserve"><value>그림자가 끝쪽으로 향할수록 흐려지는 강도.</value></data>
+<data name="PerspectiveShadowBlurName" xml:space="preserve"><value>블러 반경</value></data>
+<data name="PerspectiveShadowBlurDesc" xml:space="preserve"><value>그림자의 부드러운 가장자리 반경 (px).</value></data>
+<data name="PerspectiveShadowSpreadName" xml:space="preserve"><value>확산</value></data>
+<data name="PerspectiveShadowSpreadDesc" xml:space="preserve"><value>거리가 멀어질수록 그림자 가장자리가 확산되는 강도.</value></data>
+<data name="PerspectiveShadowAlphaThresholdName" xml:space="preserve"><value>실루엣 임계값</value></data>
+<data name="PerspectiveShadowAlphaThresholdDesc" xml:space="preserve"><value>실루엣으로 취급할 불투명도 임계값.</value></data>
+<data name="PerspectiveShadowShadowColorName" xml:space="preserve"><value>그림자 색상</value></data>
+<data name="PerspectiveShadowShadowColorDesc" xml:space="preserve"><value>그림자의 색상.</value></data>
+</root>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="CurrentCulture" xml:space="preserve"><value>zh-cn</value></data>
+<data name="PerspectiveShadowEffectName" xml:space="preserve"><value>阴影（立体投影）</value></data>
+<data name="TagPerspectiveShadow" xml:space="preserve"><value>阴影（立体投影）</value></data>
+<data name="TagPerspective" xml:space="preserve"><value>透视</value></data>
+<data name="TagShadow3D" xml:space="preserve"><value>3d阴影</value></data>
+<data name="TagCastShadow" xml:space="preserve"><value>投射阴影</value></data>
+<data name="TagShadow" xml:space="preserve"><value>阴影</value></data>
+<data name="PerspectiveShadowGroupLight" xml:space="preserve"><value>光源</value></data>
+<data name="PerspectiveShadowGroupAppearance" xml:space="preserve"><value>阴影外观</value></data>
+<data name="PerspectiveShadowLightXName" xml:space="preserve"><value>光源X</value></data>
+<data name="PerspectiveShadowLightXDesc" xml:space="preserve"><value>光源的水平位置 (px)</value></data>
+<data name="PerspectiveShadowLightYName" xml:space="preserve"><value>光源Y</value></data>
+<data name="PerspectiveShadowLightYDesc" xml:space="preserve"><value>光源的垂直位置 (px)</value></data>
+<data name="PerspectiveShadowLightHeightName" xml:space="preserve"><value>光源高度</value></data>
+<data name="PerspectiveShadowLightHeightDesc" xml:space="preserve"><value>光源的虚拟高度。值越小阴影越长。</value></data>
+<data name="PerspectiveShadowGroundYName" xml:space="preserve"><value>接地线Y</value></data>
+<data name="PerspectiveShadowGroundYDesc" xml:space="preserve"><value>相对于素材下端的地面位置偏移 (px)。</value></data>
+<data name="PerspectiveShadowOpacityName" xml:space="preserve"><value>不透明度</value></data>
+<data name="PerspectiveShadowOpacityDesc" xml:space="preserve"><value>阴影整体的不透明度。</value></data>
+<data name="PerspectiveShadowFalloffName" xml:space="preserve"><value>距离衰减</value></data>
+<data name="PerspectiveShadowFalloffDesc" xml:space="preserve"><value>阴影朝向远端逐渐变淡的强度。</value></data>
+<data name="PerspectiveShadowBlurName" xml:space="preserve"><value>模糊半径</value></data>
+<data name="PerspectiveShadowBlurDesc" xml:space="preserve"><value>阴影柔和边缘的半径 (px)。</value></data>
+<data name="PerspectiveShadowSpreadName" xml:space="preserve"><value>扩散</value></data>
+<data name="PerspectiveShadowSpreadDesc" xml:space="preserve"><value>距离越远阴影边缘扩散的强度。</value></data>
+<data name="PerspectiveShadowAlphaThresholdName" xml:space="preserve"><value>轮廓阈值</value></data>
+<data name="PerspectiveShadowAlphaThresholdDesc" xml:space="preserve"><value>作为轮廓处理的不透明度阈值。</value></data>
+<data name="PerspectiveShadowShadowColorName" xml:space="preserve"><value>阴影颜色</value></data>
+<data name="PerspectiveShadowShadowColorDesc" xml:space="preserve"><value>阴影的颜色。</value></data>
+</root>

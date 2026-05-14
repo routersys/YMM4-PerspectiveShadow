@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="CurrentCulture" xml:space="preserve"><value>es-es</value></data>
+<data name="PerspectiveShadowEffectName" xml:space="preserve"><value>Sombra (Perspectiva)</value></data>
+<data name="TagPerspectiveShadow" xml:space="preserve"><value>sombra (perspectiva)</value></data>
+<data name="TagPerspective" xml:space="preserve"><value>perspectiva</value></data>
+<data name="TagShadow3D" xml:space="preserve"><value>sombra 3d</value></data>
+<data name="TagCastShadow" xml:space="preserve"><value>sombra proyectada</value></data>
+<data name="TagShadow" xml:space="preserve"><value>sombra</value></data>
+<data name="PerspectiveShadowGroupLight" xml:space="preserve"><value>Fuente de luz</value></data>
+<data name="PerspectiveShadowGroupAppearance" xml:space="preserve"><value>Apariencia de sombra</value></data>
+<data name="PerspectiveShadowLightXName" xml:space="preserve"><value>Luz X</value></data>
+<data name="PerspectiveShadowLightXDesc" xml:space="preserve"><value>Posición horizontal de la fuente de luz (px)</value></data>
+<data name="PerspectiveShadowLightYName" xml:space="preserve"><value>Luz Y</value></data>
+<data name="PerspectiveShadowLightYDesc" xml:space="preserve"><value>Posición vertical de la fuente de luz (px)</value></data>
+<data name="PerspectiveShadowLightHeightName" xml:space="preserve"><value>Altura de luz</value></data>
+<data name="PerspectiveShadowLightHeightDesc" xml:space="preserve"><value>Altura virtual de la luz. Valores menores producen sombras más largas.</value></data>
+<data name="PerspectiveShadowGroundYName" xml:space="preserve"><value>Suelo Y</value></data>
+<data name="PerspectiveShadowGroundYDesc" xml:space="preserve"><value>Desplazamiento desde el borde inferior del objeto hasta el plano del suelo (px).</value></data>
+<data name="PerspectiveShadowOpacityName" xml:space="preserve"><value>Opacidad</value></data>
+<data name="PerspectiveShadowOpacityDesc" xml:space="preserve"><value>Opacidad general de la sombra.</value></data>
+<data name="PerspectiveShadowFalloffName" xml:space="preserve"><value>Atenuación por distancia</value></data>
+<data name="PerspectiveShadowFalloffDesc" xml:space="preserve"><value>Cuánto se desvanece la sombra hacia su extremo lejano.</value></data>
+<data name="PerspectiveShadowBlurName" xml:space="preserve"><value>Radio de desenfoque</value></data>
+<data name="PerspectiveShadowBlurDesc" xml:space="preserve"><value>Radio del borde suave de la sombra (px).</value></data>
+<data name="PerspectiveShadowSpreadName" xml:space="preserve"><value>Dispersión</value></data>
+<data name="PerspectiveShadowSpreadDesc" xml:space="preserve"><value>Cuánto se dispersa el borde de la sombra a medida que aumenta la distancia.</value></data>
+<data name="PerspectiveShadowAlphaThresholdName" xml:space="preserve"><value>Umbral de silueta</value></data>
+<data name="PerspectiveShadowAlphaThresholdDesc" xml:space="preserve"><value>Umbral de opacidad para determinar la silueta del sujeto.</value></data>
+<data name="PerspectiveShadowShadowColorName" xml:space="preserve"><value>Color de sombra</value></data>
+<data name="PerspectiveShadowShadowColorDesc" xml:space="preserve"><value>Color de la sombra.</value></data>
+</root>
